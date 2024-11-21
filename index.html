@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Video</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #d52b1e; /* Zomato red */
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+        video {
+            max-width: 70%;
+            max-height: 70%;
+            border: 3px solid white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            position: absolute;
+            top: 10px;
+            font-size: 2.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .logo {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            max-width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ansh & Aditya's Application</h1>
+    <video autoplay controls loop>
+        <source src="application_video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <p class="logo" style="font-size: 30px;">zomato</p>
+</body>
+</html>
